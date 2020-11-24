@@ -7,12 +7,12 @@ Our final result got the accuracy for 64.59% in classifying 52 Letters\
 For more detail, please look into [Stabilo-Challenge](https://stabilodigital.com/competition-details/https://stabilodigital.com/competition-details/)
 
 ## Source Code
-it can be found under final_submit_sourcecode directory. 
+it can be found under ```final_submit_sourcecode``` directory. 
 A description can also be found in the directory.
 The models are coded with Torch. 
 
 ## Short written report 
-LME_Stabilo_Challenge_final.pdf
+```LME_Stabilo_Challenge_final.pdf```
 In the report we described our model architecture(CNN + LSTM) and our data processing 
 we separated the whole dataset with 80% for training set, and 20% for test set. The writers didn't overlap in training set and test set. This ensured that we preserve the writers' uniqueness in our dataset. 
 Each sample had a different length. Before we entered the data into model, we needed to process them to the same length because of the input length of the CNN. Therefore, we used the Fourier method to transcribe each signal to the same length. 
