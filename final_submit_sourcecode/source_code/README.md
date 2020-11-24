@@ -3,11 +3,11 @@
 ## Preprocessing 
 Three main files for preprocessing are ```merge_dataset.py```, ```load_whole_data.py```, and ```utils_cnn.py```
 
-The file ```merge_dataset.py``` loads the data from the given path, extracts data, does the calibration
+The file ```merge_dataset.py``` loads the data from the given path, extracts data, does the calibration.\
 The file ```load_whole_data.py``` it does the main preprocessing, which gets rid of magnetic features, transforms the unit from angle to radian in gyroscope feature, and also resample the data into the same length using Fourier method.\
 Then, it splits the data into training and test set in ```merge_dataset.py```, based on the percentage 80 and 20 as default.
-All the functions are called inside ```train.py``` (main)\
-One can start modify from ```train.py```
+All the functions are called inside ```train.py``` (main).\
+One can start modify from ```train.py```.
 
 For ```PadCollate.py```, which was used for Encoder Decoder model because of different lengths of the input data. However, it didn't work out really well in our case. 
 ## Training
