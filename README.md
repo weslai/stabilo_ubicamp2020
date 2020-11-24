@@ -1,4 +1,4 @@
-##Stabilo Ubicomp Challenge 2020
+# Stabilo Ubicomp Challenge 2020
 This was a challenge, which was hold by the University of Erlangen's MaD-Lab and the Fraunhofer IIS in Nuremberg.\
 I did this project during my master study in Summer 2020. \
 The task was to classify the handwriting sensor data into 52 Classes(Upper and lower case letters). The handwriting sensor data were recorded of two 3D accelerometers, a 3D gyroscope, a 3D magnetometer and
