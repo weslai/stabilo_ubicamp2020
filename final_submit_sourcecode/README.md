@@ -18,4 +18,4 @@ run the `LME_SAGI_Stage2.py`\
 ### Deep Learning Model
 our final trained model is `checkpoint.ckp`, which stored the weights of the our model. \
 The final model architecture is under folder models. 
-In the folder source_code, there are the codes, which we used to process, train and test on data and our models.
+In the folder ```source_code```, there are the codes, which we used to process, train and test on data and our models.
