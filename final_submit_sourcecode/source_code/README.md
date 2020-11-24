@@ -12,7 +12,7 @@ One can start modify from ```train.py```.
 For ```PadCollate.py```, which was used for Encoder Decoder model because of different lengths of the input data. However, it didn't work out really well in our case. 
 ## Training
 We trained on 80% of the dataset. \
-```train.py```is the main file, which is used to train the model. All models are saved under directory ```/model```, the one we submitted is ```cnn_lstm1d.py```. 
+```train.py```is the main file, which is used to train the model. All models are saved under directory ```/model```, the one we submitted is ```cnn_lstm1d.py```.\ 
 Under directory ```/model```, one can also find some models, like Encoder LSTM or ResNet with LSTM, which we tried on the dataset. 
 
 ```train.py``` will eventually call ```trainer.py```, which does the main job of training and evaluating the result, and it saves losses and accuracies. 
