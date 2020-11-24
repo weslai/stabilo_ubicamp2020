@@ -4,7 +4,7 @@ I did this project during my master study in Summer 2020. \
 The task was to classify the handwriting sensor data into 52 Classes(Upper and lower case letters). The handwriting sensor data were recorded of two 3D accelerometers, a 3D gyroscope, a 3D magnetometer and
 a 1D force sensor sampled at 100 Hz. \
 Our final result got the accuracy for 64.59% in classifying 52 Letters\ 
-For more detail, please look into [Stabilo-Challenge](https://stabilodigital.com/competition-details/https://stabilodigital.com/competition-details/)
+For more detail, please look into [Stabilo-Challenge](https://stabilodigital.com/ubicomp-2020-challenge/)
 
 ## Source Code
 it can be found under ```final_submit_sourcecode``` directory. 
