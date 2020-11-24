@@ -6,7 +6,7 @@
 `conda create --name stabilo_challenge_env python=3.7`\
 `conda activate stabilo_challenge_env`
 2. Install pytorch \
-Install the correct pytorch version according to [official pytorch website](pytorch.org).
+Install the correct pytorch version according to [official pytorch website](https://pytorch.org/).
 3. Install python packages \
 `pip install -r requirements.txt`
 
